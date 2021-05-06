@@ -7,7 +7,7 @@ use App\Repository\ProductRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ApiResource(graphql={"create", "update", "delete"})
+ * @ApiResource(graphql={"create", "update", "delete", "collection_query", "item_query"})
  * @ORM\Entity(repositoryClass=ProductRepository::class)
  */
 class Product

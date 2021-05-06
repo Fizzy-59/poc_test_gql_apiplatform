@@ -1,0 +1,4 @@
+App\Entity\Product:
+  book_{1..100}:
+    name: <name()>
+    price: <numberBetween(0, 5)>
