@@ -1,1 +1,1 @@
-php bin/phpunit
+php bin/phpunit tests/
